@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 0.5s ease;
+}
+
+form:hover {
+  transform: scale(1.05);
+}
+
+.form-control {
+  width: 60%;
+}
+
+.table {
+  padding: 1.5rem;
+  height: 500px;
+}
+
+.download-btn {
+  margin-top: 1rem;
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4e9caf;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
+}
+
+.download-btn:active {
+  box-shadow: none;
+}
